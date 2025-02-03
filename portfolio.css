@@ -1,0 +1,136 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/*hero-section*/
+
+.hero-portfolio-section::before{
+  content: "";
+  position: absolute;
+  bottom: -150px;
+  left: 0;
+  background-image: url(../images/hero-section-img.svg);
+  z-index: -1;
+  width: 300px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero-portfolio-section .hero-right::after{
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -400px;
+  background-image: url("../images/hero-right-back-img.png");
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.hero-portfolio-section .hero-section::after{
+  content: "";
+  position: absolute;
+  top: 160px;
+  left: 70%;
+  background-image: url("../images/Ellipse\ 30.png");
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.hero-section .row .hero-right .portfolio-shape{
+    left: 67px;
+    top: -6px;
+}
+
+.ellipse-shape-2{
+    position: absolute;
+    top: 200px;
+    left: 74%;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+/*our-project-section*/
+
+.our-project-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-project-section p{
+  margin-bottom: 0;
+}
+
+.our-project-section  .row{
+  padding-top: 42px;
+}
+
+.our-project-section .row .card{
+    background-color: transparent;
+    border: none;
+    padding-bottom: 60px;
+  }
+  
+  .our-project-section  .row .card .design-card{
+    position: relative;
+  }
+
+  .link-detail{
+    opacity: 0;
+  }
+
+  .our-project-section .row .card .design-card:hover{
+
+    .link-detail{
+      opacity: 1;
+    }
+  }
+
+  
+  
+
+  /* .our-project-section .row .card .design-card .overlay{
+    width: 100%;
+    height: 463px;
+    background: var(--secondary);
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    
+  }
+
+  .our-project-section .row .card .design-card .overlay:hover{
+    opacity: 0.5;
+  }
+   */
+
+  .our-project-section .row .card .design-card a:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .our-project-section  .row .card .design-card .btn-primary{
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+  }
+  
+  .our-project-section  .row .card .card-body{
+   padding: 1rem 0 0 0 ;
+  }
+  
+  .our-project-section  .row .card .card-body .card-title{
+    font-size: 24px;
+    line-height: 31px
+  }
+  
+  .our-project-section  .row .card .card-body .card-text{
+    line-height: 24px;
+  
+  }
+
+  

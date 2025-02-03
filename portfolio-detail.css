@@ -1,0 +1,303 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/*portfolio-section*/
+
+
+
+.portfolio-section{
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.portfolio-section h1{
+    font-family: 'Gilroy',sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 74px;
+    padding-bottom: 42px;
+    margin-bottom: 0;
+}
+
+.portfolio-image-section{
+    padding-top: 0;
+    padding-bottom:0;
+}
+
+/*service-section*/
+
+.service-section{
+    padding-top: 24px !important;
+    padding-bottom: 0 !important;
+}
+
+.service-section .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-section .row .portfolio-detail{
+    background: var(--black-pearl);
+    width: 405px;
+    padding: 20px 32px;
+    border-radius: 12px;
+}
+
+.service-section .row .portfolio-detail .portfolio-content-detail p{
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.service-section .row .portfolio-detail .portfolio-content-detail h3{
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+/*problem-section*/
+
+.problem-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.problem-section .row h2{
+    font-family: 'Gilroy',sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: left;
+}
+
+.problem-section .row .problem-detail .problem-issue{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+
+.problem-section .row .problem-detail .first-text{
+    margin-bottom: 0;
+    padding-bottom: 24px;
+}
+
+.problem-section .row .problem-detail .last-text{
+    margin-bottom: 0;
+    padding-top: 24px;
+}
+
+.problem-section .row .problem-detail .problem-issue:last-child{
+   margin-bottom: 0;
+}
+
+.problem-section .row .problem-detail .problem-issue p{
+   margin-bottom: 0;
+   text-transform: capitalize;
+}
+
+.problem-section .row .problem-detail .problem-issue span{
+   padding-right: 20px;
+}
+
+/*approch-section*/
+
+.approch-section{
+    background-color: var(--bg-white-dim);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.approch-section h2{
+    margin-bottom: 0;
+    padding-bottom: 12px;
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 700;
+}
+
+.approch-section p{
+    margin-bottom: 0;
+    padding-bottom: 12px;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.approch-section .approach-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.approch-section .approach-card .approach{
+    width: 407px;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.approch-section .approach-card .approach:hover{
+    border-color: var(--btn-color);
+}
+
+.approch-section .approach-card .approach:hover .approach-card-detail .approach-icon{
+   background-color: var(--btn-color);
+}
+.approch-section .approach-card .approach:hover .approach-card-detail .approach-icon p{
+   color: var(--primary);
+ }
+
+.approch-section .approach-card .approach .approach-card-detail{
+    background: radial-gradient(121.43% 121.43% at 87.08% 100%, rgba(0, 0, 254, 0.1) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    padding: 24px 10px 24px 24px;
+    border-radius: 12px;
+}
+
+.approch-section .approach-card .approach .approach-card-detail .approach-icon{
+    background-color: rgba(0, 0, 254, 0.1);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.approch-section .approach-card .approach .approach-card-detail .approach-icon p{
+    margin-bottom: 0;
+    color: var(--btn-color);
+    font-family: 'Gilroy',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    transition: all 0.5s ease;
+}
+
+.approch-section .approach-card .approach .approach-card-detail  h3{
+    margin-bottom: 0;
+    padding-top: 24px;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+}
+
+.approch-section .approach-card .approach .approach-card-detail  p{
+   margin-bottom: 0;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   font-family: 'Gilroy',sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px;
+}
+
+.approch-section .approach-card .approach .approach-card-detail  p:last-child{
+   padding: 0;
+ }
+
+/*client-result-section*/
+
+.client-result-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.client-result-section h2{
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 74px;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+}
+
+.client-result-section .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-result-section .row .col-lg-4{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 20px;
+    width: 407px;
+    margin-top: 30px;
+}
+
+.client-result-section .row .col-lg-4:hover{
+    border-color: var(--primary);
+}
+
+.row .col-lg-4 .client-result{
+    background: linear-gradient(0deg, var(--black-pearl), var(--black-pearl)),
+                radial-gradient(38.06% 53.61% at 100% 97.61%, rgba(255, 255, 255, 0.1) 0%, rgba(16, 25, 32, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 12px;
+    padding: 24px;
+    height: 100%;
+}
+
+.row .col-lg-4 .client-result p{
+    margin-bottom: 0;
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.row .col-lg-4 .client-result h4{
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+/*visual-result-section*/
+
+.visual-result-section{
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+
+.visual-result-section h2{
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 74px;
+    margin-bottom: 0;
+    padding-bottom: 42px;
+}
+
+.visual-result-section .row .col-lg-6 img{
+    border-radius: 12px;
+}
+
+.visual-result-section .row .visual-content{
+    padding-top: 24px;
+}
+
+.visual-result-section .row .visual-content h3{
+    font-family: 'Gilroy',sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 55px;
+    text-align: center;
+}
+
+.footer-portfolio{
+    padding-top: 120px;
+}
+
+

@@ -1,0 +1,211 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/*latest-blog-sectiom*/
+
+.latest-blog-section{
+    padding-top: 80px;
+}
+
+.latest-blog-section h2{
+    margin-bottom: 0;
+    padding-bottom: 42px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Gilroy',sans-serif;
+}
+
+.latest-blog-section .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latest-blog-section .row .blog-box{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 16px 16px 25px 16px;
+    background: linear-gradient(0deg, var(--black-pearl), var(--black-pearl)),
+    radial-gradient(38.06% 53.61% at 100% 97.61%, rgba(255, 255, 255, 0.1) 0%, rgba(16, 25, 32, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    width: 48%;    
+    border-radius: 24px;
+}
+
+.latest-blog-section .row .blog-box:hover{
+   border-color: var(--primary);
+}
+
+.latest-blog-section .row .blog-box .blog-card .blog-icon {
+    position: relative;
+}
+
+.latest-blog-section .row .blog-box .blog-card .blog-icon img {
+    border-radius: 12px;
+}
+
+.latest-blog-section .row .blog-box .blog-card .blog-icon p {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: #00000080;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.latest-blog-section .row .blog-box .blog-card .blog-content p{
+    padding-top: 16px;
+    margin: 0;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.latest-blog-section .row .blog-box .blog-card .blog-content h4{
+    padding-top: 8px;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 24px;
+    margin: 0;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.latest-blog-section .row .blog-box .blog-card .blog-content .blog-text{
+    padding-top: 8px;
+    margin: 0;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.latest-blog-section .row .blog-box .blog-card .blog-content .view-more:hover:before{
+    transform: rotate(45deg);
+    top: 3px;
+}
+
+.latest-blog-section .row .blog-box .blog-card .blog-content .view-more:hover{
+    color: var(--btn-color);
+}
+
+/*all-blog-section*/
+
+.all-blog-section .all-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 52px;
+}
+
+.all-blog-section .all-blog .form-select {
+    max-width: 300px;
+    border-radius: 12px;
+    padding: 16px 24px;
+    background-color: var(--secondary);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: none;
+    position: relative;
+    color:var(--primary);
+    cursor: pointer;
+    font-family: 'Gilroy',sans-serif;
+    font-weight: 500;
+}
+
+.all-blog-section h2{
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.all-blog-section .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.all-blog-section .row .blog-box-all{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 16px 16px 25px 16px;
+    background: linear-gradient(0deg, var(--black-pearl), var(--black-pearl)),
+    radial-gradient(38.06% 53.61% at 100% 97.61%, rgba(255, 255, 255, 0.1) 0%, rgba(16, 25, 32, 0.1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    width: 32%;    
+    border-radius: 24px;
+    margin-bottom: 60px;
+}
+
+.all-blog-section .row .blog-box-all:hover{
+   border-color: var(--primary);
+}
+
+.all-blog-section .row .blog-box-all .blog-card .blog-icon {
+    position: relative;
+}
+
+.all-blog-section .row .blog-box-all .blog-card .blog-icon p {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: #00000080;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.all-blog-section .row .blog-box-all .blog-card .blog-content p{
+    padding-top: 16px;
+    margin: 0;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.all-blog-section .row .blog-box-all .blog-card .blog-content h4{
+    padding-top: 8px;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 24px;
+    margin: 0;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.all-blog-section .row .blog-box-all .blog-card .blog-content .blog-text{
+    padding-top: 8px;
+    margin: 0;
+    font-family: 'Gilroy',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.all-blog-section .row .blog-box-all .blog-card .blog-content .view-more:hover:before{
+   transform: rotate(45deg);
+   top: 3px;
+}
+
+.all-blog-section .row .blog-box-all .blog-card .blog-content .view-more:hover{
+    color: var(--btn-color);
+}
+
+
+
+.all-blog-section .load-more a{
+   border: 1px solid var(--btn-color);
+}
+
+.all-blog-section .load-more a:hover{
+    background-color: var(--secondary);
+    border-color: rgba(255, 255, 255, 0.2);
+}

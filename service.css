@@ -1,0 +1,178 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+.hero-service-section{
+    position: relative;
+}
+
+ .hero-section::after{
+    content: "";
+    position: absolute;
+    top: 160px;
+    left: 70%;
+    background-image: url("../images/Ellipse\ 30.png");
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.hero-section .service-hero-btn a{
+    background-color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+}
+
+.hero-section .service-hero-btn a:hover{
+    background-color: var(--secondary);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(0);
+}
+
+.hero-section .hero-right .service-shape-img {
+    position: absolute;
+    top: -11px ;
+    left: 23px;
+}
+
+.hero-section .hero-left h1{
+    line-height: 75px;
+    font-weight: 700;
+}
+
+/*our-expertise-section*/
+.our-expertise-section{
+    padding-bottom: 120px;
+}
+
+.expertise-view-more.btn-primary:hover {
+    background: var(--secondary);
+}
+
+.our-expertise-section h2{
+    padding-bottom: 42px;
+    font-weight: bold;
+    font-family: 'Gilroy',sans-serif;
+    margin-bottom: 0;
+}
+
+img.expertise-img-top.expertise-image {
+    border-radius: 8px 8px 0 0;
+}
+
+.our-expertise-section .row .col-lg-6{
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+.our-expertise-section .row .col-lg-6:nth-child(odd){
+   padding-left: 0;
+}
+
+.our-expertise-section .row .col-lg-6:nth-child(even){
+    padding-right: 0;
+ }
+
+.our-expertise-section .row .expertise-card{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 12px;  
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.our-expertise-section .row .expertise-card:hover{
+    border-color: var(--primary); 
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card img{
+    position: absolute;
+    top: -40px;
+    right: 24px;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card{
+    background-color: var(--black-pearl);
+    padding: 24px;
+    border-radius: 0 0 12px 12px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card .expertise-card-title{
+    margin-bottom:0;
+    padding-bottom: 8px;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: bold;
+    font-family: 'Gilroy',sans-serif;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card .expertise-card-text{
+    margin-bottom:0;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Gilroy',sans-serif;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card h6{
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Gilroy',sans-serif;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card .points{
+    align-items: end;
+    justify-content: space-between;
+    display: flex;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card .points ul li{
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card .points ul li:last-child{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card .points ul li:before{
+    position: absolute;
+    font-family: bootstrap-icons !important;
+    display:inline-block;
+    content: "\F309";
+    top: 0;
+    left: 0;
+}
+
+
+.why-choose-us-section .why-choose-us-right ul li:before{
+    content: "\F4B6" !important;
+    font-family: bootstrap-icons !important;
+    position: absolute;
+    color: var(--btn-color);
+    top: 0;
+    left: 0;
+}
+
+.why-choose-us-section .row .who-we-are-left .left-img img{
+    border-radius: 12px;
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card .points .btn-primary{
+    background-color: var(--secondary);
+}
+
+.our-expertise-section .row .expertise-card .expertise-title-card .points .btn-primary:hover{
+    background-color: var(--btn-color);
+}
